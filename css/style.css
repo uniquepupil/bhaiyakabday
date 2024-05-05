@@ -3257,3 +3257,19 @@ input[type=text]::-ms-clear {
     max-width: 60%;
     height: auto;
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 5px;
+  }
+  
+  .column img {
+    width: 100%;
+    height: auto;
+  }
